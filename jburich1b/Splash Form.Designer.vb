@@ -22,12 +22,13 @@ Partial Class frmSplash
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.lblName = New System.Windows.Forms.Label()
         Me.lblMsg = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.picStorks = New System.Windows.Forms.PictureBox()
         Me.picIguanas = New System.Windows.Forms.PictureBox()
-        Me.btnExit = New System.Windows.Forms.Button()
+        Me.tmrExit = New System.Windows.Forms.Timer(Me.components)
         CType(Me.picStorks, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picIguanas, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -36,10 +37,10 @@ Partial Class frmSplash
         '
         Me.lblName.AutoSize = True
         Me.lblName.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.lblName.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblName.Font = New System.Drawing.Font("Calibri", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblName.Location = New System.Drawing.Point(180, 70)
         Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(136, 28)
+        Me.lblName.Size = New System.Drawing.Size(119, 24)
         Me.lblName.TabIndex = 0
         Me.lblName.Text = "Crighton Zoo"
         '
@@ -47,11 +48,11 @@ Partial Class frmSplash
         '
         Me.lblMsg.AutoSize = True
         Me.lblMsg.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.lblMsg.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
+        Me.lblMsg.Font = New System.Drawing.Font("Calibri", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblMsg.ForeColor = System.Drawing.Color.Red
         Me.lblMsg.Location = New System.Drawing.Point(180, 115)
         Me.lblMsg.Name = "lblMsg"
-        Me.lblMsg.Size = New System.Drawing.Size(234, 28)
+        Me.lblMsg.Size = New System.Drawing.Size(219, 24)
         Me.lblMsg.TabIndex = 1
         Me.lblMsg.Text = "Come visit our residents!"
         '
@@ -66,7 +67,7 @@ Partial Class frmSplash
         'picStorks
         '
         Me.picStorks.Image = Global.jburich1b.My.Resources.Resources.Storks
-        Me.picStorks.Location = New System.Drawing.Point(254, 148)
+        Me.picStorks.Location = New System.Drawing.Point(239, 148)
         Me.picStorks.Name = "picStorks"
         Me.picStorks.Size = New System.Drawing.Size(160, 131)
         Me.picStorks.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -83,14 +84,10 @@ Partial Class frmSplash
         Me.picIguanas.TabIndex = 3
         Me.picIguanas.TabStop = False
         '
-        'btnExit
+        'tmrExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(293, 17)
-        Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(75, 23)
-        Me.btnExit.TabIndex = 5
-        Me.btnExit.Text = "Exit"
-        Me.btnExit.UseVisualStyleBackColor = True
+        Me.tmrExit.Enabled = True
+        Me.tmrExit.Interval = 4000
         '
         'frmSplash
         '
@@ -98,17 +95,17 @@ Partial Class frmSplash
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(387, 293)
-        Me.Controls.Add(Me.btnExit)
+        Me.ControlBox = False
         Me.Controls.Add(Me.picStorks)
         Me.Controls.Add(Me.picIguanas)
         Me.Controls.Add(Me.lblMsg)
         Me.Controls.Add(Me.lblName)
         Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "frmSplash"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Crighton Zoo"
         CType(Me.picStorks, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picIguanas, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -121,5 +118,5 @@ Partial Class frmSplash
     Friend WithEvents Label1 As Label
     Friend WithEvents picIguanas As PictureBox
     Friend WithEvents picStorks As PictureBox
-    Friend WithEvents btnExit As Button
+    Friend WithEvents tmrExit As Timer
 End Class
