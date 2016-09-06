@@ -24,4 +24,8 @@ Public Class frmMain
         lblTotalSales.Text = Val(lblTotalItems.Text) * 0.5
         lblTotalSales.Text = Format(lblTotalSales.Text, "currency")
     End Sub
+
+    Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

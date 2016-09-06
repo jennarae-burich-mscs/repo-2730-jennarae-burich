@@ -64,7 +64,7 @@ Partial Class frmMain
         '
         Me.txtDate.Location = New System.Drawing.Point(156, 67)
         Me.txtDate.Name = "txtDate"
-        Me.txtDate.Size = New System.Drawing.Size(111, 32)
+        Me.txtDate.Size = New System.Drawing.Size(111, 27)
         Me.txtDate.TabIndex = 1
         '
         'btnExit
@@ -108,7 +108,7 @@ Partial Class frmMain
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(24, 190)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(106, 25)
+        Me.Label5.Size = New System.Drawing.Size(85, 20)
         Me.Label5.TabIndex = 10
         Me.Label5.Text = "Total items:"
         '
@@ -117,7 +117,7 @@ Partial Class frmMain
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(24, 153)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(80, 25)
+        Me.Label4.Size = New System.Drawing.Size(61, 20)
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "&Muffins:"
         '
@@ -126,7 +126,7 @@ Partial Class frmMain
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(24, 114)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(109, 25)
+        Me.Label3.Size = New System.Drawing.Size(84, 20)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "&Doughnuts:"
         '
@@ -135,7 +135,7 @@ Partial Class frmMain
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(106, 70)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(55, 25)
+        Me.Label2.Size = New System.Drawing.Size(44, 20)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Date:"
         '
@@ -145,7 +145,7 @@ Partial Class frmMain
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(103, 18)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(215, 46)
+        Me.Label1.Size = New System.Drawing.Size(171, 37)
         Me.Label1.TabIndex = 14
         Me.Label1.Text = "Sales Receipt"
         '
@@ -153,7 +153,7 @@ Partial Class frmMain
         '
         Me.txtDonuts.Location = New System.Drawing.Point(110, 111)
         Me.txtDonuts.Name = "txtDonuts"
-        Me.txtDonuts.Size = New System.Drawing.Size(47, 32)
+        Me.txtDonuts.Size = New System.Drawing.Size(47, 27)
         Me.txtDonuts.TabIndex = 3
         '
         'PictureBox1
@@ -171,7 +171,7 @@ Partial Class frmMain
         Me.Label6.AutoSize = True
         Me.Label6.Location = New System.Drawing.Point(24, 230)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(102, 25)
+        Me.Label6.Size = New System.Drawing.Size(81, 20)
         Me.Label6.TabIndex = 12
         Me.Label6.Text = "Total sales:"
         '
@@ -179,12 +179,12 @@ Partial Class frmMain
         '
         Me.txtMuffins.Location = New System.Drawing.Point(110, 150)
         Me.txtMuffins.Name = "txtMuffins"
-        Me.txtMuffins.Size = New System.Drawing.Size(47, 32)
+        Me.txtMuffins.Size = New System.Drawing.Size(47, 27)
         Me.txtMuffins.TabIndex = 5
         '
         'frmMain
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(11.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(366, 280)
         Me.Controls.Add(Me.txtMuffins)
