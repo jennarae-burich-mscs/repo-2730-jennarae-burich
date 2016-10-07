@@ -19,6 +19,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "jburich1h1", "jburich1h1\jb
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "jburich2a1", "jburich2a1\jburich2a1.vbproj", "{7691698E-10E6-4345-BDAA-97C98B4DAACE}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "jburich2b1", "jburich2b1\jburich2b1.vbproj", "{C95AB310-2223-45EE-B926-8A0AAC7F30D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{7691698E-10E6-4345-BDAA-97C98B4DAACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7691698E-10E6-4345-BDAA-97C98B4DAACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7691698E-10E6-4345-BDAA-97C98B4DAACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C95AB310-2223-45EE-B926-8A0AAC7F30D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C95AB310-2223-45EE-B926-8A0AAC7F30D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C95AB310-2223-45EE-B926-8A0AAC7F30D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C95AB310-2223-45EE-B926-8A0AAC7F30D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
