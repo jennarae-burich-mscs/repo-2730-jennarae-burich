@@ -83,5 +83,7 @@ Public Class frmMain
         End If
 
         lblComm.Text = intComm.ToString("n2")
+
+
     End Sub
 End Class
