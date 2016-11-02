@@ -43,6 +43,8 @@ Partial Class frmMain
         Me.Label6 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.lblParkingFee = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.radKing = New System.Windows.Forms.RadioButton()
         Me.radQueen = New System.Windows.Forms.RadioButton()
@@ -50,8 +52,6 @@ Partial Class frmMain
         Me.radAtrium = New System.Windows.Forms.RadioButton()
         Me.radStandard = New System.Windows.Forms.RadioButton()
         Me.chkParkingFee = New System.Windows.Forms.CheckBox()
-        Me.lblParkingFee = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
@@ -259,6 +259,24 @@ Partial Class frmMain
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Charges"
         '
+        'lblParkingFee
+        '
+        Me.lblParkingFee.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblParkingFee.Location = New System.Drawing.Point(90, 122)
+        Me.lblParkingFee.Name = "lblParkingFee"
+        Me.lblParkingFee.Size = New System.Drawing.Size(93, 26)
+        Me.lblParkingFee.TabIndex = 24
+        Me.lblParkingFee.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(6, 125)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(85, 20)
+        Me.Label10.TabIndex = 23
+        Me.Label10.Text = "Parking fee:"
+        '
         'GroupBox3
         '
         Me.GroupBox3.Controls.Add(Me.radKing)
@@ -334,24 +352,6 @@ Partial Class frmMain
         Me.chkParkingFee.TabIndex = 5
         Me.chkParkingFee.Text = "Vehicle parking fee"
         Me.chkParkingFee.UseVisualStyleBackColor = True
-        '
-        'lblParkingFee
-        '
-        Me.lblParkingFee.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.lblParkingFee.Location = New System.Drawing.Point(90, 122)
-        Me.lblParkingFee.Name = "lblParkingFee"
-        Me.lblParkingFee.Size = New System.Drawing.Size(93, 26)
-        Me.lblParkingFee.TabIndex = 24
-        Me.lblParkingFee.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(6, 125)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(85, 20)
-        Me.Label10.TabIndex = 23
-        Me.Label10.Text = "Parking fee:"
         '
         'frmMain
         '

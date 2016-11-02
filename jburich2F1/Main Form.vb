@@ -62,7 +62,7 @@ Public Class frmMain
         blnIsRoomReservedOK = Integer.TryParse(txtRooms.Text, intRoomsReserved)
         blnIsNightsOK = Integer.TryParse(txtNights.Text, intNights)
         blnIsAdultsOK = Integer.TryParse(txtAdults.Text, intAdults)
-        blnIsChildrenOK = Integer.TryParse(txtChildren.Text, intChildren)
+        'blnIsChildrenOK = Integer.TryParse(txtChildren.Text, intChildren)
 
         If blnIsRoomReservedOK AndAlso blnIsNightsOK AndAlso blnIsAdultsOK Then
 
@@ -138,5 +138,9 @@ Public Class frmMain
 
     Private Sub txtChildren_Enter(sender As Object, e As EventArgs) Handles txtRooms.Enter
         txtChildren.SelectAll()
+    End Sub
+
+    Private Sub frmMain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
