@@ -33,6 +33,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "jburich2g1", "jburich2g1\jb
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "jburich2h1", "jburich2h1\jburich2h1.vbproj", "{241F8E77-71C8-46A7-870B-25EF23247ADB}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "jburich2i1", "jburich2i1\jburich2i1.vbproj", "{FD1666C7-09AA-4BF3-A725-E9F74738C242}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{241F8E77-71C8-46A7-870B-25EF23247ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{241F8E77-71C8-46A7-870B-25EF23247ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{241F8E77-71C8-46A7-870B-25EF23247ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1666C7-09AA-4BF3-A725-E9F74738C242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1666C7-09AA-4BF3-A725-E9F74738C242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1666C7-09AA-4BF3-A725-E9F74738C242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1666C7-09AA-4BF3-A725-E9F74738C242}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
