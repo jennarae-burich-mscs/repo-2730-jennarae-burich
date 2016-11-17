@@ -93,6 +93,6 @@ Public Class Form1
         Else
             lbl13Like.Text = "Invalid Code"
         End If
-        'lbl13Like
+
     End Sub
 End Class
