@@ -165,9 +165,6 @@
             strNum = InputBox(strPROMPT, strTITLE, "0")
         Next
 
-
-
-
         lblCount.Text = intCount.ToString
 
         If intCount > 0 Then
