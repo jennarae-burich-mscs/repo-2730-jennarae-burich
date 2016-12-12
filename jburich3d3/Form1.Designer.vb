@@ -38,12 +38,12 @@ Partial Class Form1
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.lstWholesale = New System.Windows.Forms.ListBox()
-        Me.lstRetail = New System.Windows.Forms.ListBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.btnRetail = New System.Windows.Forms.Button()
         Me.btnWholesale = New System.Windows.Forms.Button()
+        Me.btnRetail = New System.Windows.Forms.Button()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.lstRetail = New System.Windows.Forms.ListBox()
+        Me.lstWholesale = New System.Windows.Forms.ListBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -207,39 +207,14 @@ Partial Class Form1
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "p523 #13 Wholesale, retail prices"
         '
-        'lstWholesale
+        'btnWholesale
         '
-        Me.lstWholesale.FormattingEnabled = True
-        Me.lstWholesale.Location = New System.Drawing.Point(12, 55)
-        Me.lstWholesale.Name = "lstWholesale"
-        Me.lstWholesale.Size = New System.Drawing.Size(120, 212)
-        Me.lstWholesale.TabIndex = 0
-        '
-        'lstRetail
-        '
-        Me.lstRetail.FormattingEnabled = True
-        Me.lstRetail.Location = New System.Drawing.Point(150, 55)
-        Me.lstRetail.Name = "lstRetail"
-        Me.lstRetail.Size = New System.Drawing.Size(120, 212)
-        Me.lstRetail.TabIndex = 1
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(9, 30)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(60, 13)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Wholesale:"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(147, 30)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(37, 13)
-        Me.Label6.TabIndex = 4
-        Me.Label6.Text = "Retail:"
+        Me.btnWholesale.Location = New System.Drawing.Point(285, 137)
+        Me.btnWholesale.Name = "btnWholesale"
+        Me.btnWholesale.Size = New System.Drawing.Size(100, 52)
+        Me.btnWholesale.TabIndex = 6
+        Me.btnWholesale.Text = "Update Array to Wholesale Prices"
+        Me.btnWholesale.UseVisualStyleBackColor = True
         '
         'btnRetail
         '
@@ -250,14 +225,39 @@ Partial Class Form1
         Me.btnRetail.Text = "Update Array to Retail Prices"
         Me.btnRetail.UseVisualStyleBackColor = True
         '
-        'btnWholesale
+        'Label6
         '
-        Me.btnWholesale.Location = New System.Drawing.Point(285, 137)
-        Me.btnWholesale.Name = "btnWholesale"
-        Me.btnWholesale.Size = New System.Drawing.Size(100, 52)
-        Me.btnWholesale.TabIndex = 6
-        Me.btnWholesale.Text = "Update Array to Wholesale Prices"
-        Me.btnWholesale.UseVisualStyleBackColor = True
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(147, 30)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(37, 13)
+        Me.Label6.TabIndex = 4
+        Me.Label6.Text = "Retail:"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(9, 30)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(60, 13)
+        Me.Label3.TabIndex = 3
+        Me.Label3.Text = "Wholesale:"
+        '
+        'lstRetail
+        '
+        Me.lstRetail.FormattingEnabled = True
+        Me.lstRetail.Location = New System.Drawing.Point(150, 55)
+        Me.lstRetail.Name = "lstRetail"
+        Me.lstRetail.Size = New System.Drawing.Size(120, 212)
+        Me.lstRetail.TabIndex = 1
+        '
+        'lstWholesale
+        '
+        Me.lstWholesale.FormattingEnabled = True
+        Me.lstWholesale.Location = New System.Drawing.Point(12, 55)
+        Me.lstWholesale.Name = "lstWholesale"
+        Me.lstWholesale.Size = New System.Drawing.Size(120, 212)
+        Me.lstWholesale.TabIndex = 0
         '
         'Form1
         '
